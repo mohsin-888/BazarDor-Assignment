@@ -8,6 +8,11 @@ export const auth = betterAuth({
     connectionString: process.env.DATABASE_URL,
   }),
 
+  trustedOrigins: [
+    "http://localhost:3000",
+    "https://bazar-dor-assignment-tawny.vercel.app",
+  ],
+
   emailAndPassword: {
     enabled: true,
   },
