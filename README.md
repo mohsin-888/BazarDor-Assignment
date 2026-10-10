@@ -41,3 +41,10 @@ Run Locally
 ```bash
 npm install
 npm run dev
+
+ Project Highlights;
+
+- Responsive design
+- Protected product details
+- Google and GitHub login
+- Market-wise product prices
